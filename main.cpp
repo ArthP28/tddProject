@@ -18,6 +18,6 @@ int main()
 }
 //--
 void pointTest() {
-    assert();
+    //assert();
 
 }
