@@ -4,20 +4,18 @@
 #include "Point.h"
 using namespace std;
 
-void creatingPointsAndLines();
+void pointTest();
 
 
 int main()
 {
-    cout << setprecision(2);
-    cout << fixed;
-    Point p1(1.034567, 2.0789);
-    cout << p1.getCoordinate() << endl;
+    pointTest();
     cout << "All tests passed" << endl;
     return 0;
 }
 //--
 void pointTest() {
-    //assert();
+    Point p1(1.034567, 2.0789);
+    assert(p1.getCoordinate() == "X: 1.0 Y: 2.1");
 
 }
