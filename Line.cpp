@@ -18,19 +18,5 @@ Line::~Line() {
 string Line::getString() {
 	return "Point 1: [" + points[0]->getCoordinate() + "], Point 2: [" + points[1]->getCoordinate() + "]";
 }
-double Line::length() {
-	double lengthX = points[1].getX() - points[0].getX();
-	double lengthY = points[1].getY() - points[0].getY();
-	double hypotenuse = sqrt(pow(lengthX, 2.0) + pow(lengthY, 2.0));
-	return hypotenuse;
-}
-
-bool Line::isPointOnLine(Point _point) {
-
-}
-bool Line::isParallel(Line otherLine) {
-
-}
-bool Line::isIntersecting(Line otherLine) {
 
 }
