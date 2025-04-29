@@ -7,8 +7,8 @@ class Point
 public:
 	Point(double x, double y);
 
-	string getX();
-	string getY();
+	double getX();
+	double getY();
 	string getCoordinate();
 	double round(double coordinateToRound);
 

@@ -1,4 +1,5 @@
 #include "Line.h"
+#include ""
 
 Line::Line(Point pointA, Point pointB) {
 	points[0] = new Point(pointA);
@@ -17,4 +18,16 @@ Line::~Line() {
 string Line::getString() {
 	return "Point 1: [" + points[0]->getCoordinate() + "], Point 2: [" + points[1]->getCoordinate() + "]";
 }
+double Line::length() {
+	point
+}
 
+bool Line::isPointOnLine(Point _point) {
+
+}
+bool Line::isParallel(Line otherLine) {
+
+}
+bool Line::isIntersecting(Line otherLine) {
+
+}

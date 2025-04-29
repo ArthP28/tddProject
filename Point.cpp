@@ -18,3 +18,10 @@ double Point::round(double coordinateToRound) {
     double roundedCoordinate = multipliedCoordinate / 10.0;
     return roundedCoordinate;
 }
+
+double Point::getX() {
+    return xCoordinate;
+}
+double Point::getY() {
+    return yCoordinate;
+}
