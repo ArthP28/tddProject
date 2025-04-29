@@ -50,3 +50,7 @@ void lineTest() {
     Line l3(p5, p6);
     assert(l3.getString() == "Point 1: [X: 5.0 Y: 8.1], Point 2: [X: 10.2 Y: 6.6]");
 }
+
+void lengthTest() {
+
+}
