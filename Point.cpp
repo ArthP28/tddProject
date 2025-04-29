@@ -7,6 +7,14 @@ Point::Point(double x, double y) {
     yCoordinate = round(y);
 }
 
+double Point::getX() {
+    return xCoordinate;
+}
+
+double Point::getY() {
+    return yCoordinate;
+}
+
 string Point::getCoordinate() {
     stringstream retVal;
     retVal << fixed << setprecision(1) << "X: " << xCoordinate << " Y: " << yCoordinate;
